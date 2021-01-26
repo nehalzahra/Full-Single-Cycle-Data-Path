@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/single_cycle_tb_isim_beh.exe" -prj "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/single_cycle_tb_beh.prj" "work.single_cycle_tb" "work.glbl" 

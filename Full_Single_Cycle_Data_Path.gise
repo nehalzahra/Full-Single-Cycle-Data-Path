@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Full_Single_Cycle_Data_Path.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALUControl_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_add_only_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Control_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Data_Memory_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Dff_asy_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Memory_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mux_N_bit_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Program_Counter_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Register_File_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Ring_4_counter_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Shift_Left_2_Branch_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Shift_Left_2_Jump_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sign_Extension_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="choose_chathode_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="divide_by_100k_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="divide_by_500_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="single_cycle_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="single_cycle_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="single_cycle_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="single_cycle_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="single_cycle_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ssd_driver_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1581352694" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1581352694">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1581422849" xil_pn:in_ck="2373939397606816143" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1581422849">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALUControl.v"/>
+      <outfile xil_pn:name="ALU_add_only.v"/>
+      <outfile xil_pn:name="Control.v"/>
+      <outfile xil_pn:name="Data_Memory.v"/>
+      <outfile xil_pn:name="Dff_asy.v"/>
+      <outfile xil_pn:name="Instruction_Memory.v"/>
+      <outfile xil_pn:name="MUX_N_bit.v"/>
+      <outfile xil_pn:name="Program_Counter.v"/>
+      <outfile xil_pn:name="Register_File.v"/>
+      <outfile xil_pn:name="Ring_4_counter.v"/>
+      <outfile xil_pn:name="Shift_Left_2_Branch.v"/>
+      <outfile xil_pn:name="Shift_Left_2_Jump.v"/>
+      <outfile xil_pn:name="Sign_Extension.v"/>
+      <outfile xil_pn:name="chose_cathod.v"/>
+      <outfile xil_pn:name="divide_by_100k.v"/>
+      <outfile xil_pn:name="divide_by_500.v"/>
+      <outfile xil_pn:name="single_cycle.v"/>
+      <outfile xil_pn:name="single_cycle_tb.v"/>
+      <outfile xil_pn:name="ssd_driver.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1581412089" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3511714403984567741" xil_pn:start_ts="1581412089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1581412089" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7761042245357785371" xil_pn:start_ts="1581412089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1581356788" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8990670098746338773" xil_pn:start_ts="1581356788">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1581422664" xil_pn:in_ck="2373939397606816143" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1581422664">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALUControl.v"/>
+      <outfile xil_pn:name="ALU_add_only.v"/>
+      <outfile xil_pn:name="Control.v"/>
+      <outfile xil_pn:name="Data_Memory.v"/>
+      <outfile xil_pn:name="Dff_asy.v"/>
+      <outfile xil_pn:name="Instruction_Memory.v"/>
+      <outfile xil_pn:name="MUX_N_bit.v"/>
+      <outfile xil_pn:name="Program_Counter.v"/>
+      <outfile xil_pn:name="Register_File.v"/>
+      <outfile xil_pn:name="Ring_4_counter.v"/>
+      <outfile xil_pn:name="Shift_Left_2_Branch.v"/>
+      <outfile xil_pn:name="Shift_Left_2_Jump.v"/>
+      <outfile xil_pn:name="Sign_Extension.v"/>
+      <outfile xil_pn:name="chose_cathod.v"/>
+      <outfile xil_pn:name="divide_by_100k.v"/>
+      <outfile xil_pn:name="divide_by_500.v"/>
+      <outfile xil_pn:name="single_cycle.v"/>
+      <outfile xil_pn:name="single_cycle_tb.v"/>
+      <outfile xil_pn:name="ssd_driver.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1581422672" xil_pn:in_ck="2373939397606816143" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3166835092299230295" xil_pn:start_ts="1581422664">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="single_cycle_tb_beh.prj"/>
+      <outfile xil_pn:name="single_cycle_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1581422673" xil_pn:in_ck="-187181015921134731" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3953348219527117626" xil_pn:start_ts="1581422672">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="single_cycle_tb_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

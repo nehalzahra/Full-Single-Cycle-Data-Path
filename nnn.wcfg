@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/single_cycle_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="single_cycle_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/single_cycle_tb/Cathode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Cathode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Cathode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/AN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/LEDIndicator" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LEDIndicator</obj_property>
+      <obj_property name="ObjectShortName">LEDIndicator</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/reg_read_data_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_read_data_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_data_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/clkFast" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkFast</obj_property>
+      <obj_property name="ObjectShortName">clkFast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/SwitchSelector" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SwitchSelector[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SwitchSelector[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/switchRun" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">switchRun</obj_property>
+      <obj_property name="ObjectShortName">switchRun</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/clkread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkread</obj_property>
+      <obj_property name="ObjectShortName">clkread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/reg_read_data_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_read_data_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_data_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/reg_write_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/ALU_inB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_inB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_inB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/ALU_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out[31:0]</obj_property>
+   </wvobject>
+</wave_config>

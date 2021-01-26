@@ -1,0 +1,56 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/single_cycle_tb_isim_beh.exe" -prj "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/single_cycle_tb_beh.prj" "work.single_cycle_tb" "work.glbl" 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Dff_asy.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/ssd_driver.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Sign_Extension.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Shift_Left_2_Jump.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Shift_Left_2_Branch.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Ring_4_counter.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Register_File.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Program_Counter.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/MUX_N_bit.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Instruction_Memory.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/divide_by_500.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/divide_by_100k.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Data_Memory.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/Control.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/chose_cathod.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/ALU_add_only.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/ALUControl.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/ALU.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/single_cycle.v" into library work
+Analyzing Verilog file "E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/single_cycle_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Program_Counter
+Compiling module Instruction_Memory
+Compiling module Register_File
+Compiling module Data_Memory
+Compiling module Control
+Compiling module ALUControl
+Compiling module Sign_Extension
+Compiling module Shift_Left_2_Branch
+Compiling module Shift_Left_2_Jump
+Compiling module Mux_N_bit(N=5)
+Compiling module Mux_N_bit
+Compiling module ALU
+Compiling module ALU_add_only
+Compiling module Dff_asy
+Compiling module divide_by_100k
+Compiling module divide_by_500
+Compiling module Ring_4_counter
+Compiling module ssd_driver
+Compiling module choose_chathode
+Compiling module single_cycle
+Compiling module single_cycle_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 22 Verilog Units
+Built simulation executable E:/Local Disk D/V Semester/DSD/Full_Single_Cycle_Data_Path/single_cycle_tb_isim_beh.exe
+Fuse Memory Usage: 30136 KB
+Fuse CPU Usage: 2108 ms
